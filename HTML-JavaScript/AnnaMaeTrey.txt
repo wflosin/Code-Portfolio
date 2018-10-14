@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Audio</title>
+</head>
+<body>
+<p>Click the buttons in order</p>
+<script>
+  function play1(){
+       var audio = document.getElementById("audio1");
+       audio.play();
+                 }
+  function play2(){
+       var audio = document.getElementById("audio2");
+       audio.play();
+                 }
+  function play3(){
+       var audio = document.getElementById("audio3");
+       audio.play();
+                 }
+  function play4(){
+       var audio = document.getElementById("audio4");
+       audio.play();
+                 }
+  function play5(){
+       var audio = document.getElementById("audio5");
+       audio.play();
+                 }
+  function play6(){
+       var audio = document.getElementById("audio6");
+       audio.play();
+                 }
+  function play7(){
+       var audio = document.getElementById("audio7");
+       audio.play();
+                 }
+  function play8(){
+       var audio = document.getElementById("audio8");
+       audio.play();
+                 }
+  function play9(){
+       var audio = document.getElementById("audio9");
+       audio.play();
+                 }
+  function play10(){
+       var audio = document.getElementById("audio10");
+       audio.play();
+                 }
+  function play11(){
+       var audio = document.getElementById("audio11");
+       audio.play();
+                 }
+</script>
+
+<input type="button" value="1"  onclick="play1()">
+  <input type="button" value="2"  onclick="play2()">
+  <input type="button" value="3"  onclick="play3()">
+  <input type="button" value="4"  onclick="play4()">
+  <input type="button" value="5"  onclick="play5()">
+  <input type="button" value="6"  onclick="play6()">
+  <input type="button" value="7"  onclick="play7()">
+  <input type="button" value="8"  onclick="play8()">
+  <input type="button" value="9"  onclick="play9()">
+  <input type="button" value="10"  onclick="play10()">
+  <input type="button" value="11"  onclick="play11()">
+<audio id="audio1" src="https://s3.amazonaws.com/freesoundeffects/mp3/mp3_8608.mp3" ></audio>
+  <audio id="audio8" src="https://www.soundsnap.com/streamers/play.php?id=1522889495.3206:8fe04cdcec48814d709314d31771fdb44ba31aea:29d944799756e85d872a74038e906ffcd7c4484b47b1f13f48171db37578d93feb0207da9f9635eb42c0bb3ecc63bc4b775ffb2010c33d480add82ff7c471693355f26aaf3aeefe319c082b016de3f052fa118918f88b1824feb0cf74835045ee321539b95344bd4b6bbab81961e6bc2073ea8d896095a2d2d60889ad881a2f7b6009fc9b6a33b151beb5287c452c0f26eb00fedea84b0c814e8cab029c750620679fa82fc1582f710c6b3a31a2f8ff922cbf543a9c02240dc7d70d8fff7c5ec60b256939d4ccbbd263203d0c3c5229af183744e707b19a6e6f426c6a3c98b6d" ></audio>
+  <audio id="audio3" src="https://www.soundsnap.com/streamers/play.php?id=1522889495.1914:15888b73c54407037e17cb92302a61aa7a928426:b8627d351008688084d12403c06a41235ba72cc6f886969e217d26f6e50c32fb32b2251cc86e9e96d96fb22c52aecbf7719afbaa358e53bf4258f70326a4bc0e60b5f9b59311739511e8f3ffbf76f70691c975eaf7c8d3ea173302cd3bcfd680fe5d728209cbf1decf42e94d8bfae91fd112b8085b7fcb4c6cd1f9f1b76284670a166a28ed86b0dd8ed071f240181e9d80803c7963a309e609162208bc3bc8b3b8071f424ddb2c11a128db740c5478b6f3a79078f36e7c27bbd24b17549effc625b91644a4d2f6c242ef13f6b84feb8573341c15431318229855b6102b23d80a470ce3c892179fd623a545415d4437af" ></audio>
+  <audio id="audio4" src="https://www.soundsnap.com/streamers/play.php?id=1522889783.2225:79fa552707f956b273cb96d7c8e4be45bd9a4a32:56c113661708256a77205a991bf5893cdf4acdbc38293f1c2e4e18eb171d83391c91de2feeb1d75b4ff48d4f78c35b4ac312f933f13a458de2c3e154d015cefba38178cd77d4efb6f70b0ca7f5380d68e6a78051b05ba7d26007f3a8a7534844262e28d08093f3b5ddba0158c9df4ba149be7e0007af12899c5b8e51139e39bd88b16d2880636268b1f5e26fd5c53d06b68bcbe63357810c2ce0802b55040dc1b4c277993b308aaa9dab30f134751ccd6e196b64e14bc1f2a62c8e9eaa659120e35598c6924d521a707fac339f24a03da36d849b323838ca067e00a58d3d377014aa332ec4e324e5847a9d85f1325e5b3f910f8be54b17ab2ef1846aaab6e932" ></audio>
+  <audio id="audio2" src="https://www.soundsnap.com/streamers/play.php?id=1522889495.2693:051a560f0a3f20c4ac4cebf90cf598ebc4fb5736:3bca94482a47fc9f9a5be8a729742c5c249464b48fa3d91eaf0d5739b61a861b36c31b7019462a507acbcf468af144fb90734a3bb2200dc3a87901b7f1c359f307e68770f35bb8601eb9aa5a541bd9922272fdf2260c1e644fe236bf30a26bca0b4113768777c703984fc233a48e452674afe0a050ca49d47847b56f3571809daae91e404eb56f540da2772297fc791673fcf902b82066c247aa0498591b32285f50edd5d717153918753195253469c775d4d36cd5ce23072c298fea2da3db68aafa4d9f0320572361642995a3c013961f6035cb45c4242e0da23331e2512a71391dc2936ba3977e1b364e536637023b420d615f8035d11ccab9a387764c9850" ></audio>
+  <audio id="audio7" src="http://soundbible.com/mp3/Incoming_Suspense-Maximilien_-1060577487.mp3" ></audio>
+  <audio id="audio5" src="https://www.soundsnap.com/streamers/play.php?id=1522878457.4265:96dbc72ac60de1b29d2915ed1e692675fd31f116:ba4bb7a24df7f458395fc5a52c6df8403292508a40a70cf60bcfaceb2ad66f9141e8d6cb1d55e45494dc813d3e084f3385c3a4f5fed2bfd0141d31bcbcc8b165a0b2958f9b15677438816cb81ca469a30789db25ab55dca8750e7795608b6450576b5df83cd05e90332da27f368662c11363b3f9e4a8b3f1761931f6f141cbaac4ba787bced1d80a6dd46dbb9e98a09f9e350a2ce747554e2930ebafa95e518d6dbb0efd7f08422c0790f5c0f04ed37c6f62e3a4472cc6d638dffdb1d71985fbd17dde487a782b944650190be2f5ac582e46b6c0d890c564d0d33e74e74b69f6" ></audio>
+  <audio id="audio6" src="http://www.orangefreesounds.com/wp-content/uploads/2014/08/Dun-dun-dun-sound-effect-brass.mp3?_=1" ></audio>
+  <audio id="audio9" src="https://www.soundsnap.com/streamers/play.php?id=1522957960.4697:a62f9302f713e335a9275d0e978ae49a1106705f:c94ac8c397e427e38b0fb44e02677f49e8a0cfa8f26274429f35cf8ba6119b210ad52a3039339ff24d64fa1513d467b3fde61da6619aab41a3bf4ef42960360d3a586e575422127a8da51fbda6eedb074939c70fc7e5f1c0bd88e156738b938435e6250e925394db5b348593bc57d29960eeb3afaac7b67b0519b47e14c9b54815f0246901c0212acb22fd279dd80e5b5fead0395bffc4cf78125e691c6af110f38e7c44f1de0a8b0429e6206d758850d4f654d107ab196dce97b265d137f61ac2d5fc7ce271e0e39145d7c71aaf61fc730edc125a849f41c9e7b2dd4a805bcf" ></audio>
+  <audio id="audio10" src="https://www.soundsnap.com/streamers/play.php?id=1522891319.6044:8870afb5d9c21d2e88e029e7f19c40f85d606a48:966530e54f3ab3206f8b76bbcde4c8c2542cc5a890ab91e0e996565a7bf1b797f76dcce6d55ccb5b50a7fa88b242353db290f3d6e9e6010b08704faa1e26254100a11f56843de15b7160bc339d9ed7885ba3ea4eb5226d0188f4b915607a885ea33b9b7ec3743102957dd280723f44ebd1e6b3fe34e809a65a31d89ba687b405789bd00c4734a25bccf559360ec24a546a7f0929357ea813500555085c18a65f9f1fd052bc99cc677137c7c267f369e338999ddfdbf051fa6c9a76e7c892f44a8d086c9fa185fca5a101cdf648436971e1bad9eee91f87b5eca306967ca5a4eb376512da4a864f807c0294a2e5a0c67b" ></audio>
+  <audio id="audio11" src="https://www.soundsnap.com/streamers/play.php?id=1522890458.3144:4d6021f89b288056a6ab30b9ae2bd366e82a6cf9:b27eea609428d4712396bbfcc3259ba63e53dc5bf47a8de57adca057537c2eb60c57d37c87920839ad131c457502de7d1c73c7ddf16030c2147c8d6249e7fb7f134c81f492ac3c21d636980778b992063bd076d492df331eb87699f798797944bc297d8b80a87eb7cce439a3da8b8cca0462f7e7136f366aa17345089e1e93686bd2280da61f5e9d802370661d1be509219542afe09c4d73c83ffa6f9aa1df3aa3be3f746f60113226d9f8932011619ac1b8853a8df30042ac1645ced7ec4d5211453c3c6f0acb2167d72246f394350cad83135a11b6addaf27f10ef88f7a5f2a6203330a80ecaaf6e8361ed5776182da4d063db9b2150c8ada4204e119350e0" ></audio>
+  
+</body>
+  
+  
+  7 will be 5
+  5 will be 6
+  6 will be 7
+  
+  
+ 
+  
+  

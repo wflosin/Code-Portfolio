@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<script>
+  var i;
+  function space() {
+    i = 1;
+    document.getElementById('pic').src = "https://i.imgur.com/DGoUWaj.png";
+  } 
+  function reset() {
+    i = 1;
+    document.getElementById('pic').src = "https://i.imgur.com/G2349Y1.png";
+  }
+  function exit() {
+    i = 1;
+    document.getElementById('pic').src = "https://i.imgur.com/3aWTWki.png";
+  }
+  function myFunction() {
+    var x = document.images[1].src;
+    document.getElementById("demo").innerHTML = x;
+  }
+  function correct() {
+    i = i + 1;
+    var x = document.images[i].src;
+    document.getElementById("pic").src = x;
+  }
+  function incorrect() {
+    i = i + 8;
+    var x = document.images[i].src;
+    document.getElementById("pic").src = x;
+  }
+</script>
+
+<input type="button" id="space" value="Space" onclick="space()">
+<input type="button" id="a" value="A" onclick="correct()">
+<input type="button" id="b" value="B" onclick="incorrect()"> 
+<input type="button" id="e" value="Exit" onclick="exit()">
+<input type="button" id="r" value="Restart" onclick="reset()"><br>
+
+<img id='pic' src="https://i.imgur.com/G2349Y1.png" width='400'>
+<img id='img0' src="https://i.imgur.com/DGoUWaj.png" style="display: none;">
+<img id='img1' src="https://i.imgur.com/psCDMfV.png" style="display: none;">
+<img id='img2' src="https://i.imgur.com/7gH3CZz.png" style="display: none;">
+<img id='img3' src="https://i.imgur.com/0LkMire.png" style="display: none;">
+<img id='img4' src="https://i.imgur.com/fd3Xp7Z.png" style="display: none;">
+<img id='img5' src="https://i.imgur.com/pPb4mxU.png" style="display: none;">
+<img id='img6' src="https://i.imgur.com/590wD1G.png" style="display: none;">
+
+<img id='win' src="https://i.imgur.com/4HWXyK4.png" style="display: none;">
+
+<img id='err0' src="https://i.imgur.com/lASxVsH.png" style="display: none;">
+<img id='err1' src="https://i.imgur.com/jNqbIE9.png" style="display: none;">
+<img id='err2' src="https://i.imgur.com/VQJ0rHF.png" style="display: none;">
+<img id='err3' src="https://i.imgur.com/HwZGOqe.png" style="display: none;">
+<img id='err4' src="https://i.imgur.com/8gvWRT0.png" style="display: none;">
+<img id='err5' src="https://i.imgur.com/gTIx5WR.png" style="display: none;">
+<img id='err6' src="https://i.imgur.com/EA8m0RA.png" style="display: none;">
+
+
+</html>
