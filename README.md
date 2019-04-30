@@ -1,4 +1,4 @@
-# Code-Portfolio
+﻿# Code-Portfolio
 
 Python:
 “Bang”
@@ -14,6 +14,14 @@ A text-based game where you choose a weapon (with assigned speed and damage valu
 A maze game that uses a common maze generator algorithm to construct the maze. I got to practice using different modules to accept instant keyboard input into the terminal. 
 Use WASD to navigate the maze (using arrow keys will crash the game).
 
+"Speech Recognition Test":
+A small script used to interpret speech from a 
+
+"Study Guide":
+A small executable program that operates out of a terminal.  The goal is to provide the user with when they should revise course content. The user, on the day they learn the content, will input what they learned, and the system will store it in that day's slot, the next day's slot, and a a week from the day's slot - stored in a json file.
+
+"Music":
+These files are part of a project with the end goal of playing a song given the information of each note/chord (duration, staccato/legato, etc). The notes/chords played can use any waveform provided (the test_wave function in chords.py allows for the simple manipulation of a three term wave equation). This will also incorporate multiple channels of notes/chords to add different instruments or harmonics.
 
 MATLAB
 “BinaryInsertionSort”
