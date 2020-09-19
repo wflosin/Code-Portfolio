@@ -1,6 +1,7 @@
 Q_factoring.py
 
-*Most of this code is from the D-Wave Online Learning Platform, it does not belong to me*
+*Most of this code is from the D-Wave Online Learning Platform, it does not belong to me, but I 
+used it to learn*
 
 This script utilizes D-Wave's quantum computer (QPU) and the API used to access it to factor 
 a number between zero and 49.  The code builds a Constraint Satisfaction Problem and turns it 
